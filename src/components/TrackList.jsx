@@ -2,7 +2,7 @@ import { Clock } from 'lucide-react';
 import TrackRow from './TrackRow.jsx';
 import { usePlayback } from '../context/PlaybackContext.jsx';
 
-// tracks: items to show. onSelect(track, i) overrides the default "play this track within this list".
+
 export default function TrackList({ tracks, playlistId, onSelect, startIndex = 0 }) {
   const { playTrack } = usePlayback();
   return (
